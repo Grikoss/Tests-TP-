@@ -1,7 +1,8 @@
 #include <stdlib.h>
 #include "combSorting.h"
 
-void swapFunction(int* numberOne, int* numberTwo) {
+void swapFunction(int* numberOne, int* numberTwo)
+{
     *numberOne = *numberOne + *numberTwo;
     *numberTwo = *numberOne - *numberTwo;
     *numberOne -= *numberTwo;

@@ -20,9 +20,9 @@ bool combSortingTest()
 {
     int arrayOne[] = { 10, 5, 4, 1, 3, 2, 9, 8, 6, 7 };
     combSorting(arrayOne, 10);
-    int controlArrayOne[] = { 1,2,3,4,5,6,7,8,9,10 };
+    int controlArrayOne[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
     bool result = compareArrayes(arrayOne, controlArrayOne, 10);
-    int arrayTwo[] = { 500, 105,8,4,1,0,-3,-7,-10 };
+    int arrayTwo[] = { 500, 105, 8, 4, 1, 0, -3, -7, -10 };
     combSorting(arrayTwo, 9);
     int controlArrayTwo[] = { -10, -7, -3, 0, 1, 4, 8, 105, 500 };
     result = result || compareArrayes(arrayTwo, controlArrayTwo, 9);
