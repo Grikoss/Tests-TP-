@@ -18,5 +18,19 @@
     <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="combSorting.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="combSortingTest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="combSorting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="combSortingTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
