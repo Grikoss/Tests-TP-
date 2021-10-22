@@ -8,7 +8,7 @@ void swapFunction(int* numberOne, int* numberTwo)
     *numberOne -= *numberTwo;
 }
 
-int combSorting(int* array, const int length)
+int combSort(int* array, const int length)
 {
     if (array == NULL)
     {

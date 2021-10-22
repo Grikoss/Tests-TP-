@@ -17,7 +17,6 @@ int main()
 		printf("Invalid length\n");
 		while (scanf_s("%*c"));
 		scanf_s("%d", &length);
-
 	}
 	int* array = calloc(length, sizeof(int));
 	if (array == NULL)
@@ -29,7 +28,7 @@ int main()
 	{
 		while (scanf_s("%d", &array[i]) != 1);
 	}
-	combSorting(array, length);
+	combSort(array, length);
 	printf("Sort array: ");
 	for (int i = 0; i < length; ++i)
 	{
