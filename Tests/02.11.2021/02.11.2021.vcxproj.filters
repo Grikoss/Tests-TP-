@@ -18,5 +18,19 @@
     <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="getComments.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="getCommentsTest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="getComments.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="getCommentsTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
