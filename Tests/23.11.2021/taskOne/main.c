@@ -37,6 +37,7 @@ int main(void)
     {
         addListElement(list, position, value);
     }
+    fclose(file);
     movePositionToHead(list, position);
     removeListElement(list, position);
     printf_s("Old list:\n");
