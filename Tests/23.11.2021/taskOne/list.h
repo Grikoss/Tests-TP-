@@ -20,7 +20,6 @@ Position* createPosition();
 int getValueFromListElement(Position* position, int* outputValue);
 
 // Adds element into list head
-// Alaways moves position on added element
 // Returns execution code:
 // 0 - ok; 1 - list is NULL; 2 - failed to allocate memory;
 int addListElementIntoHead(List* list, const int value);
