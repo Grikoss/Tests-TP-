@@ -4,7 +4,7 @@
 
 char getNextChar(const char* string, int* index)
 {
-    if (*index < 0 || *index + 1 > strlen(string))
+    if (*index < 0 || *index > strlen(string))
     {
         return '\0';
     }
