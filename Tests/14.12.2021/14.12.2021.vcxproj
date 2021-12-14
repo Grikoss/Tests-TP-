@@ -141,11 +141,15 @@
   <ItemGroup>
     <ClCompile Include="binary.c" />
     <ClCompile Include="binaryTest.c" />
+    <ClCompile Include="finiteStateMachine.c" />
+    <ClCompile Include="finiteStateMachineTest.c" />
     <ClCompile Include="main.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="binary.h" />
     <ClInclude Include="binaryTest.h" />
+    <ClInclude Include="finiteStateMachine.h" />
+    <ClInclude Include="finiteStateMachineTest.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -24,12 +24,24 @@
     <ClCompile Include="binaryTest.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="finiteStateMachine.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="finiteStateMachineTest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="binary.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="binaryTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="finiteStateMachine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="finiteStateMachineTest.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

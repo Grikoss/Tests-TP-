@@ -20,12 +20,12 @@ void getPositiveInteger(const char* input, char* buffer, const int size)
 {
     bool array[SIZE_OF_INT] = { 0 };
 
-    for (int i = 0; input[i] != '\0'; ++i)
+    for (int i = 0; input[i] != '\0' && i < SIZE_OF_INT; ++i)
     {
         if (input[i] != '0')
         {
             array[i] = 1;
         }
     }
-    sprintf_s(buffer, size, "%i", binaryPacker(array));
+    sprintf_s(buffer, size, "%u", binaryPacker(array));
 }
