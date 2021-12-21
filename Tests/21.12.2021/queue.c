@@ -133,5 +133,5 @@ ErrorCode enqueue(Queue* queue, const int key, const int value)
         return MEMORY_ALLOCATION_ERROR;
     }
     addRoot(queue, node);
-    
+    convertNodes(queue);
 }
